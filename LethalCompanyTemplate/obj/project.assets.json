@@ -2690,9 +2690,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\benny\\OneDrive\\Desktop\\Desktop Folders\\Development\\Unity\\SupplementaryMines\\LethalCompanyTemplate\\LethalCompanyTemplate.csproj",
+      "projectUniqueName": "C:\\Users\\benny\\OneDrive\\Desktop\\Desktop Folders\\Development\\Unity\\SupplementaryMines\\LethalCompanyTemplate\\SupplementaryMines.csproj",
       "projectName": "LethalCompanyTemplate",
-      "projectPath": "C:\\Users\\benny\\OneDrive\\Desktop\\Desktop Folders\\Development\\Unity\\SupplementaryMines\\LethalCompanyTemplate\\LethalCompanyTemplate.csproj",
+      "projectPath": "C:\\Users\\benny\\OneDrive\\Desktop\\Desktop Folders\\Development\\Unity\\SupplementaryMines\\LethalCompanyTemplate\\SupplementaryMines.csproj",
       "packagesPath": "C:\\Users\\benny\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\benny\\OneDrive\\Desktop\\Desktop Folders\\Development\\Unity\\SupplementaryMines\\LethalCompanyTemplate\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,0 +1,11 @@
+C:\Users\benny\OneDrive\Desktop\Desktop Folders\Development\Unity\SupplementaryMines\LethalCompanyTemplate\bin\Debug\netstandard2.1\LethalCompanyTemplate.deps.json
+C:\Users\benny\OneDrive\Desktop\Desktop Folders\Development\Unity\SupplementaryMines\LethalCompanyTemplate\bin\Debug\netstandard2.1\LethalCompanyTemplate.dll
+C:\Users\benny\OneDrive\Desktop\Desktop Folders\Development\Unity\SupplementaryMines\LethalCompanyTemplate\bin\Debug\netstandard2.1\LethalCompanyTemplate.pdb
+C:\Users\benny\OneDrive\Desktop\Desktop Folders\Development\Unity\SupplementaryMines\LethalCompanyTemplate\obj\Debug\netstandard2.1\SupplementaryMines.csproj.AssemblyReference.cache
+C:\Users\benny\OneDrive\Desktop\Desktop Folders\Development\Unity\SupplementaryMines\LethalCompanyTemplate\obj\Debug\netstandard2.1\PluginInfo.cs
+C:\Users\benny\OneDrive\Desktop\Desktop Folders\Development\Unity\SupplementaryMines\LethalCompanyTemplate\obj\Debug\netstandard2.1\SupplementaryMines.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benny\OneDrive\Desktop\Desktop Folders\Development\Unity\SupplementaryMines\LethalCompanyTemplate\obj\Debug\netstandard2.1\SupplementaryMines.AssemblyInfoInputs.cache
+C:\Users\benny\OneDrive\Desktop\Desktop Folders\Development\Unity\SupplementaryMines\LethalCompanyTemplate\obj\Debug\netstandard2.1\SupplementaryMines.AssemblyInfo.cs
+C:\Users\benny\OneDrive\Desktop\Desktop Folders\Development\Unity\SupplementaryMines\LethalCompanyTemplate\obj\Debug\netstandard2.1\SupplementaryMines.csproj.CoreCompileInputs.cache
+C:\Users\benny\OneDrive\Desktop\Desktop Folders\Development\Unity\SupplementaryMines\LethalCompanyTemplate\obj\Debug\netstandard2.1\LethalCompanyTemplate.dll
+C:\Users\benny\OneDrive\Desktop\Desktop Folders\Development\Unity\SupplementaryMines\LethalCompanyTemplate\obj\Debug\netstandard2.1\LethalCompanyTemplate.pdb
