@@ -2677,7 +2677,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "BepInEx.Analyzers >= 1.0.8",
+      "BepInEx.Analyzers >= 1.*",
       "BepInEx.Core >= 5.*",
       "BepInEx.PluginInfoProps >= 1.*",
       "UnityEngine.Modules >= 2022.3.9"
@@ -2690,11 +2690,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\benny\\OneDrive\\Desktop\\Desktop Folders\\Development\\Unity\\SupplementaryMines\\LethalCompanyTemplate\\SupplementaryMines.csproj",
-      "projectName": "LethalCompanyTemplate",
-      "projectPath": "C:\\Users\\benny\\OneDrive\\Desktop\\Desktop Folders\\Development\\Unity\\SupplementaryMines\\LethalCompanyTemplate\\SupplementaryMines.csproj",
+      "projectUniqueName": "C:\\Users\\benny\\OneDrive\\Desktop\\Desktop Folders\\Development\\Unity\\SupplementaryMines\\SupplementaryMines\\SupplementaryMines.csproj",
+      "projectName": "SupplementaryMines",
+      "projectPath": "C:\\Users\\benny\\OneDrive\\Desktop\\Desktop Folders\\Development\\Unity\\SupplementaryMines\\SupplementaryMines\\SupplementaryMines.csproj",
       "packagesPath": "C:\\Users\\benny\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\benny\\OneDrive\\Desktop\\Desktop Folders\\Development\\Unity\\SupplementaryMines\\LethalCompanyTemplate\\obj\\",
+      "outputPath": "C:\\Users\\benny\\OneDrive\\Desktop\\Desktop Folders\\Development\\Unity\\SupplementaryMines\\SupplementaryMines\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Users\\benny\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
@@ -2731,7 +2731,7 @@
           "BepInEx.Analyzers": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[1.0.8, )"
+            "version": "[1.*, )"
           },
           "BepInEx.Core": {
             "target": "Package",

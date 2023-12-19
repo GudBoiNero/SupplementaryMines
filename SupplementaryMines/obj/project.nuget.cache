@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LCd2F1tJhzmMwl0Nmbr8MJ/HubQkJgoqFqYAoFzu8Ju85MXpMa+ljzXbxcmjhV60Y1tm45XYE8X4N6ZJ8Q1vdQ==",
+  "dgSpecHash": "BcDFFmep3aQko7btxcY/R4tbmL880mT/tJvfUDKj5z24JSKA9m9SHoCn+qSN62kCfVOMaIDpx0lUuDga40M3dw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\benny\\OneDrive\\Desktop\\Desktop Folders\\Development\\Unity\\SupplementaryMines\\LethalCompanyTemplate\\SupplementaryMines.csproj",
+  "projectFilePath": "C:\\Users\\benny\\OneDrive\\Desktop\\Desktop Folders\\Development\\Unity\\SupplementaryMines\\SupplementaryMines\\SupplementaryMines.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\benny\\.nuget\\packages\\bepinex.analyzers\\1.0.8\\bepinex.analyzers.1.0.8.nupkg.sha512",
     "C:\\Users\\benny\\.nuget\\packages\\bepinex.baselib\\5.4.20\\bepinex.baselib.5.4.20.nupkg.sha512",

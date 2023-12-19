@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "LethalCompanyTemplate/1.0.0": {
+      "SupplementaryMines/1.0.0": {
         "dependencies": {
           "BepInEx.Analyzers": "1.0.8",
           "BepInEx.Core": "5.4.21",
@@ -15,7 +15,7 @@
           "UnityEngine.Modules": "2022.3.9"
         },
         "runtime": {
-          "LethalCompanyTemplate.dll": {}
+          "SupplementaryMines.dll": {}
         }
       },
       "BepInEx.Analyzers/1.0.8": {},
@@ -355,7 +355,7 @@
     }
   },
   "libraries": {
-    "LethalCompanyTemplate/1.0.0": {
+    "SupplementaryMines/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
