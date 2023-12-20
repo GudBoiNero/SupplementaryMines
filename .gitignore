@@ -67,5 +67,7 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
-Assembly-CSharp.dll
-UnityEngine.dll
+
+# Private Lib
+lib/Assembly-CSharp.dll
+lib/UnityEngine.dll
