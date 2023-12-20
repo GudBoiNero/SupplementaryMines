@@ -9,3 +9,5 @@ C:\Users\benny\OneDrive\Desktop\Desktop Folders\Development\Unity\SupplementaryM
 C:\Users\benny\OneDrive\Desktop\Desktop Folders\Development\Unity\SupplementaryMines\SupplementaryMines\obj\Debug\netstandard2.1\SupplementaryMines.csproj.CoreCompileInputs.cache
 C:\Users\benny\OneDrive\Desktop\Desktop Folders\Development\Unity\SupplementaryMines\SupplementaryMines\obj\Debug\netstandard2.1\SupplementaryMines.dll
 C:\Users\benny\OneDrive\Desktop\Desktop Folders\Development\Unity\SupplementaryMines\SupplementaryMines\obj\Debug\netstandard2.1\SupplementaryMines.pdb
+C:\Users\benny\OneDrive\Desktop\Desktop Folders\Development\Unity\SupplementaryMines\SupplementaryMines\bin\Debug\netstandard2.1\Assembly-CSharp.dll
+C:\Users\benny\OneDrive\Desktop\Desktop Folders\Development\Unity\SupplementaryMines\SupplementaryMines\obj\Debug\netstandard2.1\SupplementaryMines.csproj.CopyComplete
