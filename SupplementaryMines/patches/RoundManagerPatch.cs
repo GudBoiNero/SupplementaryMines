@@ -20,13 +20,26 @@ namespace SupplementaryMines.Patches
             }
         }
 
+        static void PrintKeyframes(Keyframe[] keyframes)
+        {
+            for (int i = 0; i < keyframes.Length; i++)
+            {
+                Plugin.Log("PrintKeyframes: \n\tValue: " + keyframes[i].value + "\n\tTime: " + keyframes[i].time);
+            }
+        }
+
         [HarmonyPatch("SpawnMapObjects")]
         [HarmonyPrefix]
         static void Prefix(RoundManager __instance)
         {
             Plugin.Log("Prefix: Ran SpawnMapObjects");
 
+            for (int i = 0; i < __instance.currentLevel.spawnableMapObjects.Length; i++)
+            {
+                PrintKeyframes(__instance.currentLevel.spawnableMapObjects[i].numberToSpawn.GetKeys());
+            }
 
+            Plugin.Log("Prefix: " + __instance.currentLevel.spawnableMapObjects);
             for (int i = 0; i < __instance.currentLevel.spawnableMapObjects.Length; i++)
             {
                 SpawnableMapObject spawnableMapObject = __instance.currentLevel.spawnableMapObjects[i];
@@ -44,6 +57,11 @@ namespace SupplementaryMines.Patches
                         Plugin.Log("Prefix: Applied MinesModifier!");
                     }
                 }
+            }
+
+            for (int i = 0; i < __instance.currentLevel.spawnableMapObjects.Length; i++)
+            {
+                PrintKeyframes(__instance.currentLevel.spawnableMapObjects[i].numberToSpawn.GetKeys());
             }
 
             Plugin.Log("Prefix: Finished SpawnMapObjects");
