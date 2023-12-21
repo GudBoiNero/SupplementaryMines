@@ -20,7 +20,7 @@ namespace SupplementaryMines.Patches
 
         [HarmonyPatch("SpawnMapObjects")]
         [HarmonyPostfix]
-        static void SpawnMapObjects()
+        static void Postfix(RoundManager __instance)
         {
             Plugin.Log("Called SpawnMapObjects");
         }
