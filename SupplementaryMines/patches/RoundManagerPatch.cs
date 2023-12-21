@@ -53,7 +53,8 @@ namespace SupplementaryMines.Patches
                     for (int j = 0; j < keys.Length; j++)
                     {
                         Keyframe key = keys[j];
-                        keys[j] = new(key.time, spawnableMapObject.numberToSpawn.Evaluate(key.time) * Plugin.MinesMultiplier);
+                        keys.SetValue(new Keyframe(key.time, spawnableMapObject.numberToSpawn.Evaluate(key.time) * Plugin.MinesMultiplier), j);
+                        __instance.currentLevel.spawnableMapObjects[i].numberToSpawn.SetKeys(keys);
                         Plugin.Log("Prefix: Applied MinesModifier!");
                     }
                 }
