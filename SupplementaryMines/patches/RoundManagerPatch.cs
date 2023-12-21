@@ -19,10 +19,17 @@ namespace SupplementaryMines.Patches
         }
 
         [HarmonyPatch("SpawnMapObjects")]
+        [HarmonyPrefix]
+        static void Prefix(RoundManager __instance)
+        {
+            Plugin.Log("Prefix: Ran SpawnMapObjects");
+        }
+
+        [HarmonyPatch("SpawnMapObjects")]
         [HarmonyPostfix]
         static void Postfix(RoundManager __instance)
         {
-            Plugin.Log("Called SpawnMapObjects");
+            Plugin.Log("Postfix: Ran SpawnMapObjects");
         }
     }
 }
