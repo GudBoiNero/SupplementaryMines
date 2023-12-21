@@ -12,7 +12,9 @@ namespace SupplementaryMines
         public static Plugin instance = null;
         Harmony harmony = new(PluginInfo.PLUGIN_GUID);
 
-        public static float MinesMultiplier = 2f;
+        // Config
+        public static float MinesMultiplier = 2f; 
+        public static bool MinesAlways = false;
 
         private void Awake()
         {

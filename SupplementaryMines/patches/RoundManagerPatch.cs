@@ -3,6 +3,7 @@ using HarmonyLib;
 using UnityEngine;
 using SupplementaryMines.Patches;
 using DunGen;
+using System;
 
 namespace SupplementaryMines.Patches
 {
@@ -25,6 +26,26 @@ namespace SupplementaryMines.Patches
         {
             Plugin.Log("Prefix: Ran SpawnMapObjects");
 
+
+            for (int i = 0; i < __instance.currentLevel.spawnableMapObjects.Length; i++)
+            {
+                SpawnableMapObject spawnableMapObject = __instance.currentLevel.spawnableMapObjects[i];
+
+                Plugin.Log("Prefix: Found SpawnableMapObject prefab named " + "\"" + spawnableMapObject.prefabToSpawn.GetType().Name + "\"");
+                if (spawnableMapObject.prefabToSpawn.name == "Landmine")
+                {
+                    Plugin.Log("Prefix: Found Landmine in \"currentLevel.spawnableMapObjects\"!");
+
+                    Keyframe[] keys = spawnableMapObject.numberToSpawn.GetKeys();
+                    for (int j = 0; j < keys.Length; j++)
+                    {
+                        Keyframe key = keys[j];
+                        keys[j] = new(key.time, spawnableMapObject.numberToSpawn.Evaluate(key.time) * Plugin.MinesMultiplier);
+                        Plugin.Log("Prefix: Applied MinesModifier!");
+                    }
+                }
+            }
+
             Plugin.Log("Prefix: Finished SpawnMapObjects");
         }
 
@@ -34,24 +55,6 @@ namespace SupplementaryMines.Patches
         {
             Plugin.Log("Postfix: Ran SpawnMapObjects");
 
-            for (int i = 0; i < __instance.currentLevel.spawnableMapObjects.Length; i++)
-            {
-                SpawnableMapObject spawnableMapObject = __instance.currentLevel.spawnableMapObjects[i];
-
-                Plugin.Log("Postfix: Found SpawnableMapObject prefab named " + "\"" + spawnableMapObject.prefabToSpawn.GetType().Name + "\"");
-                if (spawnableMapObject.prefabToSpawn.name == "Landmine")
-                {
-                    Plugin.Log("Postfix: Found Landmine in \"currentLevel.spawnableMapObjects\"!");
-
-                    Keyframe[] keys = spawnableMapObject.numberToSpawn.GetKeys();
-                    for (int j = 0; j < keys.Length; j++)
-                    {
-                        float val = (float)keys.GetValue(j);
-                        keys.SetValue(val * Plugin.MinesMultiplier, j);
-                        Plugin.Log("Postfix: Applied MinesModifier!");
-                    }
-                }
-            }
             
             Plugin.Log("Postfix: Finished SpawnMapObjects");
         }
