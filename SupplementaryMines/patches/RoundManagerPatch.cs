@@ -4,6 +4,7 @@ using UnityEngine;
 using SupplementaryMines.Patches;
 using DunGen;
 using System;
+using SupplementaryMines.config;
 
 namespace SupplementaryMines.Patches
 {
@@ -53,7 +54,7 @@ namespace SupplementaryMines.Patches
                     for (int j = 0; j < keys.Length; j++)
                     {
                         Keyframe key = keys[j];
-                        keys.SetValue(new Keyframe(key.time, spawnableMapObject.numberToSpawn.Evaluate(key.time) * Plugin.MinesMultiplier), j);
+                        keys.SetValue(new Keyframe(key.time, spawnableMapObject.numberToSpawn.Evaluate(key.time) * Config.landminesMultiplier), j);
                         __instance.currentLevel.spawnableMapObjects[i].numberToSpawn.SetKeys(keys);
                         Plugin.Log("Prefix: Applied MinesModifier!");
                     }
