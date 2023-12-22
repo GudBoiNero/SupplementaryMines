@@ -15,7 +15,7 @@ namespace SupplementaryMines.config
         private static ConfigEntry<bool> _consistentLandmines;
         private static ConfigEntry<float> _landminesMultiplier;
 
-        private static void Init()
+        public static void Init()
         {
             Plugin.Log("Initializing config...");
             var filePath = Path.Combine(Paths.ConfigPath, CONFIG_FILE_NAME);

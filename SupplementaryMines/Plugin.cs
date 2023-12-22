@@ -1,7 +1,9 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
+using SupplementaryMines.config;
 using SupplementaryMines.Patches;
+using System.Linq;
 using UnityEngine;
 
 namespace SupplementaryMines
@@ -17,6 +19,8 @@ namespace SupplementaryMines
             instance = this;
             // Plugin startup logic
             Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
+
+            config.Config.Init();
 
             harmony.PatchAll(typeof(Plugin));
             harmony.PatchAll(typeof(RoundManagerPatch));
