@@ -1,0 +1,9 @@
+{
+  "name": "SupplementaryMines",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/GudBoiNero/SupplementaryMines",
+  "description": "Lethal Company requires more explosives. Don't you agree?",
+  "dependencies": [
+    "LethalAPI-1.0.0"
+  ]
+}
