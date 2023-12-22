@@ -45,7 +45,7 @@ namespace SupplementaryMines.Patches
             {
                 SpawnableMapObject spawnableMapObject = __instance.currentLevel.spawnableMapObjects[i];
 
-                Plugin.Log("Prefix: Found SpawnableMapObject prefab named " + "\"" + spawnableMapObject.prefabToSpawn.GetType().Name + "\"");
+                Plugin.Log("Prefix: Found SpawnableMapObject prefab named " + "\"" + spawnableMapObject.prefabToSpawn.name + "\"");
                 if (spawnableMapObject.prefabToSpawn.name == "Landmine")
                 {
                     Plugin.Log("Prefix: Found Landmine in \"currentLevel.spawnableMapObjects\"!");

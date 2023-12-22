@@ -21,6 +21,7 @@ namespace SupplementaryMines
             Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
 
             config.Config.Init();
+            config.Config.PrintConfig();
 
             harmony.PatchAll(typeof(Plugin));
             harmony.PatchAll(typeof(RoundManagerPatch));

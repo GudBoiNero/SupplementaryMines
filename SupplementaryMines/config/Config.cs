@@ -25,6 +25,12 @@ namespace SupplementaryMines.config
             Plugin.Log("Config initialized!");
         }
 
+        public static void PrintConfig()
+        {
+            Plugin.Log($"Consistent Landmines: {consistentLandmines}");
+            Plugin.Log($"Landmines Multiplier: {landminesMultiplier}");
+        }
+
         public static bool consistentLandmines => _consistentLandmines.Value;
         public static float landminesMultiplier => _landminesMultiplier.Value;
     }
