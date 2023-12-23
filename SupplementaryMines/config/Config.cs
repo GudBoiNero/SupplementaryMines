@@ -14,6 +14,7 @@ namespace SupplementaryMines.config
         private static ConfigFile _config;
         private static ConfigEntry<bool> _consistentLandmines;
         private static ConfigEntry<float> _landminesMultiplier;
+        private static ConfigEntry<float> _landminesMinimum;
 
         public static void Init()
         {
@@ -22,6 +23,7 @@ namespace SupplementaryMines.config
             _config = new ConfigFile(filePath, true);
             _consistentLandmines = _config.Bind("Config", "Consistent Landmines", false, "Every map will have mines in their spawn table.");
             _landminesMultiplier = _config.Bind("Config", "Landmines Multiplier", 1.0f, "Multiplies the default amount of mines to spawn.");
+            _landminesMinimum = _config.Bind("Config", "Landmines Minimum", 1.0f, "[Only applies with Consistent Landmines turned on] The minimum amount of mines to spawn.");
             Plugin.Log("Config initialized!");
         }
 
@@ -29,9 +31,11 @@ namespace SupplementaryMines.config
         {
             Plugin.Log($"Consistent Landmines: {consistentLandmines}");
             Plugin.Log($"Landmines Multiplier: {landminesMultiplier}");
+            Plugin.Log($"Landmines Multiplier: {landminesMinimum}");
         }
 
         public static bool consistentLandmines => _consistentLandmines.Value;
         public static float landminesMultiplier => _landminesMultiplier.Value;
+        public static float landminesMinimum => _landminesMinimum.Value;
     }
 }

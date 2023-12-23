@@ -72,6 +72,9 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
+# Builds
+SupplementaryMines/bin
+
 # Private Lib
 SupplementaryMines/lib/Assembly-CSharp.dll
 SupplementaryMines/lib/UnityEngine.dll

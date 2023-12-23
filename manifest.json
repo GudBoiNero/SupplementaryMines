@@ -1,0 +1,9 @@
+{
+  "name": "SupplementaryMines",
+  "version_number": "1.1.0",
+  "website_url": "https://github.com/GudBoiNero/SupplementaryMines",
+  "description": "Lethal Company requires more explosives. Don't you agree?",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}
