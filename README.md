@@ -7,3 +7,5 @@ Currently there are two options within `supplementary_mines.cfg`
 `Consistent Landmines`, `true` or `false`, "Every map will have mines in their spawn table." 
 
 `Landmines Multiplier`, any number, "Multiplies the default amount of mines to spawn."
+
+`Landmines Minimum`, any number, "[Only applies with Consistent Landmines turned on] The minimum amount of mines to spawn."
