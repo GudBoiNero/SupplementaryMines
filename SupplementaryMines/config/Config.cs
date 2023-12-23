@@ -19,11 +19,14 @@ namespace SupplementaryMines.config
         public static void Init()
         {
             Plugin.Log("Initializing config...");
+
             var filePath = Path.Combine(Paths.ConfigPath, CONFIG_FILE_NAME);
             _config = new ConfigFile(filePath, true);
+
             _consistentLandmines = _config.Bind("Config", "Consistent Landmines", false, "Every map will have mines in their spawn table.");
             _landminesMultiplier = _config.Bind("Config", "Landmines Multiplier", 1.0f, "Multiplies the default amount of mines to spawn.");
             _landminesMinimum = _config.Bind("Config", "Landmines Minimum", 1.0f, "[Only applies with Consistent Landmines turned on] The minimum amount of mines to spawn.");
+            
             Plugin.Log("Config initialized!");
         }
 
