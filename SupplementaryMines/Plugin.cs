@@ -2,6 +2,7 @@
 using BepInEx.Logging;
 using HarmonyLib;
 using SupplementaryMines.config;
+using SupplementaryMines.patches;
 using SupplementaryMines.Patches;
 using System.Linq;
 using UnityEngine;
@@ -25,6 +26,7 @@ namespace SupplementaryMines
 
             harmony.PatchAll(typeof(Plugin));
             harmony.PatchAll(typeof(RoundManagerPatch));
+            harmony.PatchAll(typeof(LandminePatch));
         }
 
         public static void Log(string message)
