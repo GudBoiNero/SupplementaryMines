@@ -2,7 +2,7 @@
 Use the [Thunderstore](https://thunderstore.io/c/lethal-company/p/GudBoiNero/SupplementaryMines/) link to install!
 
 # Config
-Currently there are two options within `supplementary_mines.cfg`
+Currently there are ~~two~~ three options within `supplementary_mines.cfg`
 
 `Consistent Landmines`, `true` or `false`, "Every map will have mines in their spawn table." 
 
