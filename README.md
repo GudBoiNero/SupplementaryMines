@@ -1,4 +1,4 @@
-This is a [Lethal Company](https://store.steampowered.com/app/1966720/Lethal_Company/) mod that allows you to increase the spawn rate of landmines within the generated facility. Made in a week as a challenge from my friends!
+This is a [Lethal Company](https://store.steampowered.com/app/1966720/Lethal_Company/) mod that allows you to increase the spawn rate of landmines within the generated facility. Made in a few days as a challenge from my friends!
 
 ![Proof of it working...](proof.png)
 
